@@ -5,13 +5,13 @@
   "type": "module",
   "homepage": "https://github.com/nikhil-alr/Portfolio",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-  },
+  "dev": "vite",
+  "build": "tsc -b && vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "html2canvas": "^1.4.1",
